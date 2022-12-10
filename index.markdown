@@ -17,14 +17,19 @@ layout: home
 		<a href="/demo">Request demo</a>
 	</div>
 	<div class="vp-right">
-	<h2>Unlimited number of simultaneous erasures</h2>
-	<p>Use multiple USB drives or PXE to erasure hard drives simultanously without limit.</p>
-	<a href="/demo">Get started</a>
+		<h2>Unlimited number of simultaneous erasures</h2>
+		<p>Use multiple USB drives or PXE to erasure hard drives simultanously without limit.</p>
+		<a href="/demo">Get started</a>
 	</div>
-	<div class="vp-left">
-		<h2>Certify with Usody</h2>
-		<p>Install Usody erasure software to your USB and start erasing hard drives.</p>
-		<a href="/demo">Start certifying</a>
+	<div class="vp-left two-column">
+		<div>
+			<h2>Certify with Usody</h2>
+			<p>Install Usody erasure software to your USB and start erasing hard drives.</p>
+			<a href="/demo">Start certifying</a>
+		</div>
+		<div>
+			<image src="/assets/Public_link_with_certificate.png"/>
+		</div>
 	</div>
 </section>
 <section class="background-image-2">

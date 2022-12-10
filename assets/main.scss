@@ -21,6 +21,15 @@ header > .wrapper {
 	margin-left: 5%;
 }
 
+.two-column {
+	display: flex;
+	align-items: center;
+}
+
+.two-column > * {
+	flex: 50%;
+}
+
 .background-image {
 	height: 62vw;
 	border-style: none;
@@ -74,6 +83,6 @@ header > .wrapper {
 }
 
 .vp-right {
-	margin-left: 55%;
+	margin: 50px 0 50px 55%;
 }
 
