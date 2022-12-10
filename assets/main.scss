@@ -1,0 +1,79 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+/*
+  Theme overrides
+ */
+
+section {
+	margin-bottom: 40px;
+}
+
+header.site-header {
+	border-top: 0;
+}
+
+header > .wrapper {
+	max-width: 100%;
+	margin-left: 5%;
+}
+
+.background-image {
+	height: 62vw;
+	border-style: none;
+	border-width: 1px;
+	border-color: #5c5c5c;
+	background-position: 50% 0%;
+	background-size: contain;
+	background-repeat: no-repeat;
+    /*display: flex;
+    align-items: center;*/
+    position: relative;
+    background-image: url(/assets/pexels-cottonbro-studio-5474286_free.png);
+    background-position: right;
+    background-color: #CAEBFA;
+}
+
+.background-image-2 {
+	background-size: cover;
+	height: 400px;
+    background-image: url(/assets/pexels-mikhail-nilov-9242258_reduced.jpg);
+}
+
+@media screen and (min-width: 800px) {
+}
+
+.splash-container-center {
+	position: absolute;
+	top: 20vw;
+	margin-left: 5%;
+    max-width: 50%;
+}
+
+.splash-container-center > h1 {
+	background-color: #caebfaba;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.splash-container-center > a {
+	margin-left: 10px;
+}
+
+.splash-container-top {
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+
+.vp-left {
+	margin-left: 5%;
+}
+
+.vp-right {
+	margin-left: 55%;
+}
+
