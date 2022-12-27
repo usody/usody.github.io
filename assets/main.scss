@@ -21,38 +21,56 @@ header > .wrapper {
 	margin-left: 5%;
 }
 
-.two-column {
-	display: flex;
-	align-items: center;
+h1 {
+	font-size: 3rem;
 }
 
-.two-column > * {
-	flex: 50%;
+.box-shadow {
+	box-shadow: 1px 2px 3px 1px #00000052
+}
+
+.button {
+	border-radius: 6px;
+	color: white;
+	background-color: rgb(255, 91, 130);
+	padding: 1.2rem;
+	font-size: 1.8rem;
+}
+
+.button:hover, .button:visited {
+	color: white;
+	text-decoration: none;
+	background-color: rgb(220, 70, 110);
 }
 
 .background-image {
+	
 	height: 62vw;
-	border-style: none;
-	border-width: 1px;
-	border-color: #5c5c5c;
 	background-position: 50% 0%;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
-    /*display: flex;
-    align-items: center;*/
     position: relative;
-    background-image: url(/assets/pexels-cottonbro-studio-5474286_free.png);
     background-position: right;
     background-color: #CAEBFA;
+    /*
+    
+
+    background: url(/assets/pexels-cottonbro-studio-5474286_free.png) no-repeat center center fixed; 
+    background-size: cover;
+    height: 100%;
+    */
 }
 
 .background-image-2 {
 	background-size: cover;
-	height: 400px;
-    background-image: url(/assets/pexels-mikhail-nilov-9242258_reduced.jpg);
+	height: 600px;
 }
 
 @media screen and (min-width: 800px) {
+}
+
+section {
+	position: relative;
 }
 
 .splash-container-center {
@@ -78,11 +96,37 @@ header > .wrapper {
 	color: white;
 }
 
-.vp-left {
-	margin-left: 5%;
+.splash-container-dark-bg {
+	color: black;
 }
 
-.vp-right {
-	margin: 50px 0 50px 55%;
+.vps {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.vps h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.vps p {
+	font-size: 1.7rem;
+}
+
+.vps a {
+	font-size: 1.5rem;
+}
+
+.vps > div {
+	margin-top: 100px;
+	margin-left: 5%;
+	display: flex;
+	align-items: center;
+}
+
+.vps > div > * {
+	flex: 50%;
+	margin: 0 20px;
 }
 
