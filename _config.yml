@@ -19,13 +19,19 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Usody
-# email: your-email@example.com
+author: Associació Pangea Coordinadora Comunicació per a la Cooperació
+address: 
+  C/ Plaça Eusebi Güell 6-7
+  Edifici Vertex, planta 0
+  08034 Barcelona
+phone: +34 934015664  
+email: suport@pangea.org
 description: >- # this means to ignore newlines until "baseurl:"
-  We bring trust and transparency to the reverse supply chain by providing hard drive USB erasure software with digitial twin technology to maintain the chain of custody for electronic devices.
+  We bring trust and transparency to the reverse supply chain by providing hard drive USB erasure software and digitial twin technology to maintain the chain of custody for electronic devices.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: usody
-github_username: usody
+# github_username: usody
 
 # Build settings
 theme: minima

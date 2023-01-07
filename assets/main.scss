@@ -22,25 +22,83 @@ header > .wrapper {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 1.5rem;
 }
+@media screen and (min-width: 800px) {
+	h1 {
+		font-size: 3rem;
+	}
+}
+
+h2 {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+@media screen and (min-width: 800px) {
+	h2 {
+		font-size: 2.5rem;
+	}
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+@media screen and (min-width: 800px) {
+	h3 {
+		font-size: 1.7rem;
+	}
+}
+
+
 
 .box-shadow {
 	box-shadow: 1px 2px 3px 1px #00000052
 }
 
-.button {
+.btn {
+	display: inline-block;
+}
+
+.btn-primary {
 	border-radius: 6px;
 	color: white;
 	background-color: rgb(255, 91, 130);
-	padding: 1.2rem;
-	font-size: 1.8rem;
+	padding: 0.7rem;
+	font-size: 1.2rem;
 }
 
-.button:hover, .button:visited {
+@media screen and (min-width: 800px) {
+	.btn-secondary {
+		padding: 1.2rem;
+		font-size: 1.8rem;
+	}
+}
+
+.btn-primary:hover, .btn-primary:visited {
 	color: white;
 	text-decoration: none;
 	background-color: rgb(220, 70, 110);
+}
+
+.btn-secondary {
+	border-radius: 6px;
+	color: #494949;
+    border: #494949 1px solid;
+	padding: 0.7rem;
+	font-size: 1.1rem;
+}
+
+@media screen and (min-width: 800px) {
+	.btn-secondary {
+		padding: 1.2rem;
+		font-size: 1.5rem;
+	}
+}
+
+.btn-secondary:hover, .btn-secondary:visited {
+	text-decoration: none;
+	color: #494949;
+	background-color: rgb(225, 225, 225);
 }
 
 .background-image {
@@ -66,19 +124,22 @@ h1 {
 	height: 600px;
 }
 
-@media screen and (min-width: 800px) {
-}
-
 section {
 	position: relative;
 }
 
 .splash-container-center {
 	position: absolute;
-	top: 20vw;
+	top: 10vw;
 	margin-left: 5%;
-    max-width: 50%;
 }
+@media screen and (min-width: 800px) {
+	.splash-container-center {
+		top: 20vw;
+	    max-width: 50%;
+	}
+}
+
 
 .splash-container-center > h1 {
 	background-color: #caebfaba;
@@ -101,32 +162,57 @@ section {
 }
 
 .vps {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 200px;
 }
 
-.vps h2 {
-	font-size: 2.5rem;
-	font-weight: bold;
+.vps {
+	.image-container {
+		margin-top: 30px;
+	}
+
+	.vp-text-container {
+		margin-top: 50px;
+		text-align: center;
+
+		a.btn-secondary {
+			margin-top: 10px;
+		}
+	}
 }
 
-.vps p {
-	font-size: 1.7rem;
-}
+@media screen and (min-width: 800px) {
+	.vp-container {
+		margin-top: 100px;
+		margin-left: 5%;
+		display: flex;
+		align-items: center;
+		padding: 0 20px;
 
-.vps a {
-	font-size: 1.5rem;
-}
+		.image-container {
+			flex: 50%;
+			margin-top: 0;
+		}
 
-.vps > div {
-	margin-top: 100px;
-	margin-left: 5%;
-	display: flex;
-	align-items: center;
-}
+		.vp-text-container {
+			margin-top: 0;
+			text-align: left;
+			flex: 50%;
+		}
+	}
 
-.vps > div > * {
-	flex: 50%;
-	margin: 0 20px;
+	.vp-container:nth-child(even) {
+		.vp-text-container {
+			margin-left: 20px;
+			order: 2;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.image-container {
+			order: 1;
+			display: flex;
+		}
+	}
 }
 

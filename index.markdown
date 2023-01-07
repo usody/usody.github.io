@@ -4,55 +4,55 @@
 
 layout: home
 ---
-<section class="background-image" style="background-image: url(/assets/pexels-cottonbro-studio-5474286_free.png);">
+<section class="background-image" style="background-image: url(/assets/pexels-cottonbro-studio-5474286_free_low-res.png);">
     <div class="splash-container-center">
       <h1>Fast & secure data erasure for laptops, desktops & servers</h1>
-      <a class="button" onclick="document.getElementById('demo').scrollIntoView({behavior: 'smooth'})">Get started</a>
+      <a class="btn btn-primary" target="_blank" href="https://calendly.com/usody/demo-usody">Request demo</a>
     </div>
 </section>
 <section class="vps">
-	<div>
-		<div>
+	<div class="vp-container">
+		<div class="vp-text-container">
 			<h2>Securely erase device data</h2>
-			<p>Install Usody erasure software to your USB and start erasing hard drives.</p>
-			<a href="/demo">Request demo</a>
+			<h3>Install Usody erasure software to your USB and start erasing hard drives.</h3>
+			<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Schedule demo</a>
 		</div>
-		<div>
-			<image src="/assets/Laptop-with-USB-erasure_v7.png"/>
-		</div>
-	</div>
-	<div>
-		<div>
-			<image class="box-shadow" src="/assets/proofing-future-usody.png"/>
-		</div>
-		<div>
-			<h2>Unlimited number of simultaneous erasures</h2>
-			<p>Use multiple USB drives or PXE to erasure hard drives simultanously without limit.</p>
-			<a href="/demo">Get started</a>
+		<div class="image-container">
+			<image src="/assets/Laptop-with-USB-erasure_v7_low-res.png"/>
 		</div>
 	</div>
-	<div>
-		<div>
+	<div class="vp-container">
+		<div class="vp-text-container">
 			<h2>Certify with Usody</h2>
-			<p>Erasure certificates are available at your Usody online inventory.</p>
-			<a href="/demo">Start certifying</a>
+			<h3>Erasure certificates are available at your Usody online inventory.</h3>
+			<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Start certifying</a>
 		</div>
-		<div>
+		<div class="image-container">
 			<image src="/assets/Erasure-certificate.png"/>
 		</div>
 	</div>
+	<div class="vp-container">
+		<div class="vp-text-container">
+			<h2>Unlimited number of simultaneous erasures</h2>
+			<h3>Use multiple USB drives or PXE to erasure hard drives simultanously without limit.</h3>
+			<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Get started</a>
+		</div>
+		<div class="image-container">
+			<image class="box-shadow" src="/assets/proofing-future-usody.png"/>
+		</div>
+	</div>
 </section>
-<section class="background-image-2" style="background-image: url(/assets/pexels-mikhail-nilov-9242258_reduced.jpg);">
+<section class="background-image-2" style="background-image: url(/assets/pexels-mikhail-nilov-9242258_reduced_low-res.jpg);">
 	<div class="splash-container-top">
 		<h2>Repair history</h2>
-		<p>View carried out repairs done to a device in your online inventory and share device specifications and refurbishment information with potential buyers.</p>
+		<h3>Store and view repair information such as used components in your online inventory. Share device specifications and refurbishment information with potential buyers.</h3>
 	</div>
 </section>
 <section id="demo">
 		<div class="splash-container-top splash-container-dark-bg">
 			<h2>Demo</h2>
-			<p>Learn more about Usody in a private online-call.</p>
-			<a class="button" href="/demo">Schedule a demo</a>
+			<h3>Learn more in a private online-call</h3>
+			<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Request demo</a>
 		</div>
 </section>
 
