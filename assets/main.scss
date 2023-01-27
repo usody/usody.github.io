@@ -101,6 +101,26 @@ h3 {
 	background-color: rgb(225, 225, 225);
 }
 
+/*
+************ Footer
+*/
+.footer-heading-wrapper {
+	margin-bottom: 10px;
+
+	.footer-heading {
+		margin-bottom: 0;
+	}
+	.page-link {
+		margin-left: 20px;
+    float: right;
+	}
+}
+
+
+/*
+************ Landing page
+*/
+
 .background-image {
 	
 	height: 62vw;

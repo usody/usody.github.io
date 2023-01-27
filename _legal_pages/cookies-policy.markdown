@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wrapped
 title: Cookies policy
 ---
 
