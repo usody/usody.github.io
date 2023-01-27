@@ -2,15 +2,7 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-    <div class="footer-heading-wrapper">
-      <span class="footer-heading">{{ site.title | escape }}</span>
-
-      {%- for my_page in site.legal_pages -%}
-        {%- if my_page.title -%}
-        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -42,7 +34,13 @@
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
-
+    <div class="legal-pages">
+      {%- for my_page in site.legal_pages -%}
+        {%- if my_page.title -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
   </div>
 
 </footer>
