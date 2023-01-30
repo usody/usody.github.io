@@ -8,10 +8,6 @@
   Theme overrides
  */
 
-section {
-	margin-bottom: 40px;
-}
-
 header.site-header {
 	border-top: 0;
 }
@@ -23,6 +19,7 @@ header > .wrapper {
 
 h1 {
 	font-size: 1.5rem;
+	font-weight: bold;
 }
 @media screen and (min-width: 800px) {
 	h1 {
@@ -57,36 +54,42 @@ h3 {
 
 .btn {
 	display: inline-block;
+
+	&:hover {
+		text-decoration: none;
+		filter: brightness(0.90);
+	}
+
+	&:visited {
+		text-decoration: none;
+		filter: brightness(0.70);
+	}
 }
 
 .btn-primary {
 	border-radius: 6px;
-	color: white;
+	color: white !important;
 	background-color: rgb(255, 91, 130);
 	padding: 0.7rem;
 	font-size: 1.2rem;
 }
 
 @media screen and (min-width: 800px) {
-	.btn-secondary {
+	.btn-primary {
 		padding: 1.2rem;
 		font-size: 1.8rem;
 	}
 }
 
-.btn-primary:hover, .btn-primary:visited {
-	color: white;
-	text-decoration: none;
-	background-color: rgb(220, 70, 110);
-}
-
 .btn-secondary {
 	border-radius: 6px;
-	color: #494949;
-    border: #494949 1px solid;
+	color: #494949 !important;
+  border: #494949 1px solid;
 	padding: 0.7rem;
 	font-size: 1.1rem;
+	background-color: white;
 }
+
 
 @media screen and (min-width: 800px) {
 	.btn-secondary {
@@ -94,12 +97,64 @@ h3 {
 		font-size: 1.5rem;
 	}
 }
-
-.btn-secondary:hover, .btn-secondary:visited {
-	text-decoration: none;
-	color: #494949;
-	background-color: rgb(225, 225, 225);
+.center {
+	padding-top: 30px;
+	text-align: center;	
 }
+
+@media screen and (min-width: 800px) {
+	.flex-center {
+		display: flex;
+		align-items: center;
+	}
+	.columns-2 {
+		/* margin-top: 100px; */
+		margin-left: 5%;
+		padding: 0 20px;
+
+		& > * {
+			flex: 50%;
+		}
+
+		.image-container {
+			margin-top: 0;
+		}
+
+		.text-container {
+			margin-top: 0;
+			text-align: left;
+		}
+	}
+
+	.columns-2:nth-child(even) {
+		& > * {
+			display: flex;
+		}
+		.text-container {
+			margin-left: 20px;
+			order: 2;
+			flex-wrap: wrap;
+		}
+		.image-container {
+			order: 1;
+		}
+
+		.single-centered-column {
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	.columns-3 {
+		margin-left: 5%;
+		padding: 0 20px;
+
+		& > * {
+			flex: 33%;
+		}
+	}
+}
+
 
 /*
 ************ Footer
@@ -122,118 +177,30 @@ h3 {
 ************ Landing page
 */
 
-.background-image {
-	
-	height: 62vw;
-	background-position: 50% 0%;
-	background-size: cover;
-	background-repeat: no-repeat;
-    position: relative;
-    background-position: right;
-    background-color: #CAEBFA;
-    /*
-    
-
-    background: url(/assets/pexels-cottonbro-studio-5474286_free.png) no-repeat center center fixed; 
-    background-size: cover;
-    height: 100%;
-    */
-}
-
-.background-image-2 {
-	background-size: cover;
-	height: 600px;
-}
-
-section {
-	position: relative;
-}
-
-.splash-container-center {
-	position: absolute;
-	top: 10vw;
-	margin-left: 5%;
-}
-@media screen and (min-width: 800px) {
-	.splash-container-center {
-		top: 20vw;
-	    max-width: 50%;
+#above-the-fold {
+	min-height: calc(100vh - 55.95px);
+	display: flex;
+	h2 {
+		font-weight: normal;
+		line-height: 115%;
 	}
 }
 
-
-.splash-container-center > h1 {
-	background-color: #caebfaba;
-    padding: 10px;
-    border-radius: 7px;
-}
-
-.splash-container-center > a {
-	margin-left: 10px;
-}
-
-.splash-container-top {
-	padding-top: 30px;
-	text-align: center;
-	color: white;
-}
-
-.splash-container-dark-bg {
-	color: black;
-}
-
-.vps {
-  margin-left: 10%;
-  margin-right: 10%;
+#solution {
   margin-bottom: 200px;
+  background: linear-gradient(180deg, #CAEBFA 0%, #FFFFFF 48.44%, #E7ECF1 100%, #E7ECF1 100%)
 }
 
-.vps {
+#solution {
 	.image-container {
 		margin-top: 30px;
 	}
 
-	.vp-text-container {
+	.text-container {
 		margin-top: 50px;
-		text-align: center;
 
 		a.btn-secondary {
 			margin-top: 10px;
 		}
 	}
 }
-
-@media screen and (min-width: 800px) {
-	.vp-container {
-		margin-top: 100px;
-		margin-left: 5%;
-		display: flex;
-		align-items: center;
-		padding: 0 20px;
-
-		.image-container {
-			flex: 50%;
-			margin-top: 0;
-		}
-
-		.vp-text-container {
-			margin-top: 0;
-			text-align: left;
-			flex: 50%;
-		}
-	}
-
-	.vp-container:nth-child(even) {
-		.vp-text-container {
-			margin-left: 20px;
-			order: 2;
-			display: flex;
-			flex-wrap: wrap;
-		}
-		.image-container {
-			order: 1;
-			display: flex;
-		}
-	}
-}
-
