@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pricing
+menu: main
 ---
 <div class="wrapper">
 	<h1>Data Erasure</h1>

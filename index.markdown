@@ -22,34 +22,26 @@ layout: home
 </section>
 <section id="solution">
 	<div class="wrapper">
-		<div class="columns-2 flex-center">
-			<div class="text-container">
-				<h2>Securely erase device data</h2>
-				<h3>Install Usody erasure software to your USB and start erasing hard drives.</h3>
-				<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Schedule demo</a>
-				<div class="columns-2 flex-center" style="margin-top: 75px;">
-					<div class="single-baseline-column">
-						<image src="/assets/ieee-sa-logo.png"/>
-						<h3>Compliant with IEEE 2883-2022</h3>
-					</div>
-					<div class="single-baseline-column" style="padding-left: 20px;">
-						<image src="/assets/nist-logo.png"/>
-						<h3>Compliant with NIST SP-800-88</h3>
-					</div>
+		<div>
+			<div class="columns-2 flex-center">
+				<div class="text-container">
+					<h2>Fast & secure data sanitization for laptops, desktops & servers</h2>
+					<h3>Erase storage drives with Usody USB or PXE and issue erasure certificates to your suppliers </h3>
+					<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Start certifying</a>
+				</div>
+				<div class="image-container">
+					<image src="/assets/Plugging-USB-into-Laptop.png"/>
 				</div>
 			</div>
-			<div class="image-container">
-				<image src="/assets/Laptop-with-USB-erasure_v7_low-res.png"/>
-			</div>
-		</div>
-		<div class="columns-2 flex-center">
-			<div class="text-container">
-				<h2>Certify with Usody</h2>
-				<h3>Erasure certificates are available at your Usody online inventory.</h3>
-				<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Start certifying</a>
-			</div>
-			<div class="image-container">
-				<image src="/assets/Erasure-certificate.png"/>
+			<div class="columns-2 flex-center" style="margin-top: 75px;">
+				<div class="single-center-column">
+					<image src="/assets/ieee-sa-logo.png"/>
+					<h3>Compliant with IEEE 2883-2022</h3>
+				</div>
+				<div class="single-center-column" style="padding-left: 20px;">
+					<image src="/assets/nist-logo.png"/>
+					<h3>Compliant with NIST SP-800-88</h3>
+				</div>
 			</div>
 		</div>
 		<div class="columns-2 flex-center">
@@ -60,6 +52,16 @@ layout: home
 			</div>
 			<div class="image-container">
 				<image class="box-shadow" src="/assets/proofing-future-usody.png"/>
+			</div>
+		</div>
+		<div class="columns-2 flex-center">
+			<div class="text-container">
+				<h2>Cloud based inventory</h2>
+				<h3>The results for every device snapshot are updated in your inventory.</h3>
+				<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Try out Usody</a>
+			</div>
+			<div class="image-container">
+				<image class="box-shadow" src="/assets/Usody-inventory.png"/>
 			</div>
 		</div>
 		<div>
