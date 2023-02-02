@@ -8,10 +8,7 @@ menu: main
   <div class="PricingTable-grid">
     <div class="PriceColumn flex-container direction-column justify-content-flex-start align-items-center" data-testid="price-column" style="--pt-animate-in-order:0;">
       <div class="PriceColumn-content flex-container direction-column justify-content-flex-start align-items-center">
-        <div class="PriceColumn-aboutProduct flex-container direction-column">
-          <div class="PriceColumn-badge flex-container">
-            <div class="Badge is-testModeBadge flex-container align-items-center"><span class="Badge-text Text Text-color--default Text-fontSize--12 Text-fontWeight--500">Test Mode</span></div>
-          </div>
+        <div class="PriceColumn-aboutProduct flex-container direction-column">        
           <div class="PriceColumn-textAndProductImage flex-container">
             <div class="PriceColumn-textContainerHeightAligner" style="height: 90px;">
               <div class="PriceColumn-textContainer flex-container direction-column">
@@ -85,9 +82,6 @@ menu: main
     <div class="PriceColumn flex-container direction-column justify-content-flex-start align-items-center" data-testid="price-column" style="--pt-animate-in-order:1;">
       <div class="PriceColumn-content flex-container direction-column justify-content-flex-start align-items-center">
         <div class="PriceColumn-aboutProduct flex-container direction-column">
-          <div class="PriceColumn-badge flex-container">
-            <div class="Badge is-testModeBadge flex-container align-items-center"><span class="Badge-text Text Text-color--default Text-fontSize--12 Text-fontWeight--500">Test Mode</span></div>
-          </div>
           <div class="PriceColumn-textAndProductImage flex-container">
             <div class="PriceColumn-textContainerHeightAligner" style="height: 90px;">
               <div class="PriceColumn-textContainer flex-container direction-column">
