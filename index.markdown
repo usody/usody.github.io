@@ -67,12 +67,12 @@ layout: home
 		<div>
 			<h2>Build customer confidence with the Usody Device Report</h2>
 			<div class="flex-center columns-2">
-				<div class="text-container center">
+				<div class="center single-center-column">
 					<h3>Buyers want more information  when they are buying used</h3>
 					<h4>Provide them a detailed report available in your online inventory.</h4>
 					<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Get a device report</a>
 				</div>
-				<div class="image-container">
+				<div class="">
 					<image class="box-shadow-high-blur" src="/assets/device-report.png"/>
 				</div>
 			</div>
