@@ -57,7 +57,7 @@ layout: home
 		<div class="columns-2 flex-center">
 			<div class="text-container">
 				<h2>Cloud based inventory</h2>
-				<h3>The results for every device snapshot are updated in your inventory.</h3>
+				<h3>The results for every device snapshot are updated  in your inventory.</h3>
 				<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Try out Usody</a>
 			</div>
 			<div class="image-container">
@@ -68,7 +68,7 @@ layout: home
 			<h2>Build customer confidence with the Usody Device Report</h2>
 			<div class="flex-center columns-2">
 				<div class="center single-center-column">
-					<h3>Buyers want more information when they are buying used</h3>
+					<h3>Buyers want more information  when they are buying used</h3>
 					<h4>Provide them a detailed report available in your online inventory.</h4>
 					<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Get a device report</a>
 				</div>
