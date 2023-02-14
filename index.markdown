@@ -68,7 +68,7 @@ layout: home
 			<h2>Build customer confidence with the Usody Device Report</h2>
 			<div class="flex-center columns-2">
 				<div class="center single-center-column">
-					<h3>Buyers want more information  when they are buying used</h3>
+					<h3>Buyers want more information when they are buying used</h3>
 					<h4>Provide them a detailed report available in your online inventory.</h4>
 					<a href="https://calendly.com/usody/demo-usody" target="_blank" class="btn btn-secondary">Get a device report</a>
 				</div>
@@ -96,7 +96,7 @@ layout: home
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
 <section id="demo" style="padding: 200px 0; background-color: #E7ECF1;">
 	<div class="center">
 		<h2>Demo</h2>
@@ -111,5 +111,3 @@ layout: home
 	<a href="/demo">Request a demo</a>   
 </section>  
 -->
-
-
