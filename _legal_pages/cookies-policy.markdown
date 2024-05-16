@@ -3,17 +3,17 @@ layout: wrapped
 title: Cookies policy
 ---
 
-In compliance with the provisions of article 22.2 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce, on this web page we inform you about cookies and the privacy policy, collection and treatment we carry out in Pangea (pangea.org and usody.com).
+In compliance with the provisions of article 22.2 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce, on this web page we inform you about cookies and the privacy policy, collection and treatment we carry out in Usody (usody.com).
 
  
 
-### What is a Cookie ?
+### What is a Cookie?
 Cookies are small packets of information that the servers of a website send to the user's browser with data about their previous browsing.
 The browser saves this information in the form of a text file on the hard drive of the user visiting the web page so that certain information can be retrieved on subsequent visits.
 
  
 
-### What are cookies used for ? Cookies
+### What are cookies used for ?
 
 Cookies are usually an essential part of the operation of many websites that use them, in general, to improve the browsing experience and on future visits. The most frequent uses are:
 
@@ -46,7 +46,7 @@ Personalization cookies : They allow the user to customize the characteristics (
 - behavioral advertising cookies :They allow the editor to include advertising spaces on the web, according to the information obtained through the user's browsing habits.
  
 
-### Who uses the information stored in cookies ?
+### Who uses the information stored in cookies?
 
 The information stored in the cookies of a website is used by the owners of the website, with the exception of those identified as " third-party cookies ", which are used and managed by external entities that provide them with requested services, often to improve their services. and the user experience when browsing the website. In general, the main services for which these " third-party cookies " are used are obtaining statistics and managing advertising.
 
@@ -125,15 +125,15 @@ More information about Safari: https://support.apple.com/kb/ph17191?locale=es_ES
 
  
 
-### Why do we use cookies on Pangea and Usody?
+### Why do we use cookies on Usody?
 
-At Pangea and Usody we use cookies to retrieve information and thus offer the user a more agile navigation, avoiding requesting data that the user has already provided. Likewise, we use cookies to analyze the behavior of users when browsing the web, resulting in a very effective tool to assess the operation of the web page and introduce improvements.
+At Usody we use cookies to retrieve information and thus offer the user a more agile navigation, avoiding requesting data that the user has already provided. Likewise, we use cookies to analyze the behavior of users when browsing the web, resulting in a very effective tool to assess the operation of the web page and introduce improvements.
 
  
 
-### What Cookies do we use in Pangea on our website and for what purposes?
+### What Cookies do we use in Usody on our website and for what purposes?
 
-On the Pangea and Usody websites we also use some cookies, specifically:
+On the Usody websites we also use some cookies, specifically:
 
 #### Technical cookies
 These are those that allow the user to navigate through the web page and use the different options or services that it has, such as identifying the session, accessing parts of restricted access, using security elements. during navigation.
@@ -141,13 +141,13 @@ Technical cookies are necessary to correctly display the website and ensure the 
 #### Functional cookies
 These are those that allow the user to access the service with some predefined general characteristics based on a series of criteria in the user's terminal, such as the language, the type of browser through which the service is accessed, the regional configuration from where the service is accessed, etc.
 They are cookies that help the user to have a better browsing experience on the site. An example of the use of this type of cookies are those used to store the data of the last search for a product to auto-fill the search engine, country, city of preference and last products consulted by the user.
-The cookies used by PANGEA are:
-- viewed_cookie_policy pangea.org
+The cookies used by USODY are:
+- viewed_cookie_policy usody.com
 Notifies that the cookie policy has been accepted. Duration of 10 months.
-cookielawinfo-checkbox-necessarypangea.org
+cookielawinfo-checkbox-necessaryusody.com
 Notifies that we have accepted the cookies policy. Duration of 10 months.
 GDPR Cookie Consent plugin WP
-CookieLawInfoConsentpangea.org
+CookieLawInfoConsentusody.com
 Notifies that we have accepted the cookie policy. Duration of 10 months.
 GDPR Cookie Consent plugin WP
 pll_language ca Nature Bliss theme. from WP, language selection. Duration of 1 year.
@@ -155,11 +155,11 @@ pll_language ca Nature Bliss theme. from WP, language selection. Duration of 1 y
 #### Analysis cookies
 
 These are those that allow the person responsible for them to monitor and analyze the behavior of the users of the websites to which they are linked. The information collected through this type of cookie is used to measure the activity of the websites and to create browsing profiles for the users of these sites to introduce improvements based on the analysis of the usage data made by the users. from service. Basically,statistical analysis cookies .
-They are used to analyze the behavior of users in an aggregated and anonymous way, including the number of visitors to the website and to different product files, the origin of the visits, day and time, platform, number of clicks on a file, search words. that a user uses to find their desired content. In this way, Pangea uses a very useful means to introduce improvements to the website and to know what content or design is most relevant to the user.
+They are used to analyze the behavior of users in an aggregated and anonymous way, including the number of visitors to the website and to different product files, the origin of the visits, day and time, platform, number of clicks on a file, search words. that a user uses to find their desired content. In this way, USODY uses a very useful means to introduce improvements to the website and to know what content or design is most relevant to the user.
 
 #### Third-party cookies
 
-These are those that allow access to external content and involve the transmission of personal data to these third parties, in our case to Twitter, which allow the management and improvement of the service offered by this third party. In this sense, Pangea does not store any personal information and is not responsible for the data processing that these third parties may carry out, leaving the user subject to the terms and conditions as well as the Privacy Policy of these third parties. And don't forget that you can always block third-party cookies from the configuration options of your browser, the option is usually called " block third party cookies " ( block third party cookies ).
+These are those that allow access to external content and involve the transmission of personal data to these third parties, in our case to Twitter, which allow the management and improvement of the service offered by this third party. In this sense, USODY does not store any personal information and is not responsible for the data processing that these third parties may carry out, leaving the user subject to the terms and conditions as well as the Privacy Policy of these third parties. And don't forget that you can always block third-party cookies from the configuration options of your browser, the option is usually called " block third party cookies " ( block third party cookies ).
 
 We use these cookies in order to display our social network to let you know our ads. In this case we have both our own cookies and cookies stored by third parties.
 
@@ -167,7 +167,7 @@ https://platform.twitter.com personalization_id.twitter.com
 Twitter Social Network Duration: 1.5 years.
  
 
-### Can I take more protection measures regarding Cookies ?
+### Can I take more protection measures regarding Cookies?
 
 Well yes, there are a few more things you can do to increase your security and better protect yourself. For example, we can recommend extensions for your browser such as 'cookie autodelete' that deletes cookies after you visit the web. Here are the links for Firefox and Chrome:
 
@@ -182,4 +182,4 @@ And if you want to test how protected your browser is from tracking, we recommen
 
 ### And one last thing…
 
-Pangea never sells, assigns, transfers, etc… the data collected during your browsing. They are only used to facilitate your navigation, to give you access to private places (such as the webmail) and to carry out statistical analysis in order to improve our website and the content we offer you. You can rest easy, nothing leaves Pangea.🙂
+USODY never sells, assigns, transfers, etc… the data collected during your browsing. They are only used to facilitate your navigation, to give you access to private places (such as the webmail) and to carry out statistical analysis in order to improve our website and the content we offer you. You can rest easy, nothing leaves USODY.🙂
